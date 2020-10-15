@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <title>Pixamond</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+		<link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css" />
+		<link rel="stylesheet" href="node_modules/@creativebulma/bulma-tooltip/dist/bulma-tooltip.min.css" />
+		<link rel="stylesheet" href="/src/style/main.css">
+		<title>Pixamond</title>
+	</head>
+	<body>
+		<section class="hero has-shadow-b is-dark is-flex is-flex-direction-row is-align-items-center is-justify-content-between">
+			<div>
+				<a class="has-text-info" href="/">
+					<i class="fas fa-gem fa-2x m-3"></i>
+				</a>
+			</div>
+
+			<div>
+				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Home">
+					<i class="fas fa-home fa-lg m-3 is-clickable"></i>
+				</span>
+
+				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Undo">
+					<i class="fas fa-undo-alt fa-lg m-3 is-clickable"></i>
+				</span>
+
+				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Redo">
+					<i class="fas fa-redo-alt fa-lg m-3 is-clickable"></i>
+				</span>
+
+				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="New">
+					<i class="fas fa-plus-square fa-lg m-3 is-clickable"></i>
+				</span>
+			</div>
+
+			<div>
+				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Save">
+					<i class="far fa-save fa-lg m-3 is-clickable"></i>
+				</span>
+			</div>
+		</section>
+
+		<section>
+			<div class="columns is-mobile">
+				<div class="column is-flex is-flex-direction-column is-align-items-center is-narrow mt-3 ml-3 p-3 has-background-black-ter has-text-white">
+					<i class="fas fa-home fa-2x mb-5 mt-2 is-clickable"></i>
+
+					<i class="fas fa-plus-square fa-2x mb-5 is-clickable"></i>
+
+					<i class="fas fa-undo-alt fa-2x mb-5 is-clickable"></i>
+
+					<i class="fas fa-home fa-2x mb-5 is-clickable"></i>
+
+					<i class="fas fa-plus-square fa-2x mb-5 is-clickable"></i>
+
+					<i class="fas fa-undo-alt fa-2x mb-5 is-clickable"></i>
+
+					<i class="fas fa-home fa-2x mb-5 is-clickable"></i>
+
+					<i class="fas fa-plus-square fa-2x mb-5 is-clickable"></i>
+
+					<i class="fas fa-undo-alt fa-2x mb-5 is-clickable"></i>
+				</div>
+
+				<div class="column mt-3 p-3">Second column</div>
+			</div>
+		</section>
+	</body>
 </html>
