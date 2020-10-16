@@ -50,3 +50,16 @@ body {
 }
 
 /* ---------- */
+
+
+
+
+/* Canvas */
+
+#idCanvas .column-main {
+    max-height: 90vh;
+}
+
+#idCanvas .column-main img {
+    max-height: 80vh;
+}
