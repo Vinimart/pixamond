@@ -57,9 +57,9 @@ body {
 /* Canvas */
 
 #idCanvas .column-main {
-    max-height: 90vh;
+    max-height: 100vh;
 }
 
 #idCanvas .column-main img {
-    max-height: 80vh;
+    max-height: 91vh;
 }
