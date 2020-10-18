@@ -1,180 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css" />
-		<link rel="stylesheet" href="/node_modules/@creativebulma/bulma-tooltip/dist/bulma-tooltip.min.css" />
-		<link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
-		<link rel="stylesheet" href="/src/style/main.css" />
-		<title>Pixamond</title>
-	</head>
-	<body style="background-color: #161616;">
-		<section class="hero has-shadow-b is-dark is-flex is-flex-direction-row is-align-items-center is-justify-content-between">
-			<div>
-				<a class="has-text-info" href="/">
-					<i class="fas fa-gem fa-2x m-3"></i>
-				</a>
-			</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/main.css">
+    <title>Pixamond</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="top-sec">
+            <div>
+                <i class="fas fa-gem fa-lg"></i>
+            </div>
 
-			<div>
-				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="File">
-					<i class="fas fa-file-image fa-lg m-3 is-clickable"></i>
-				</span>
+            <div>
+                <i class="large material-icons">image</i>
+                <i class="large material-icons">undo</i>
+                <i class="large material-icons">redo</i>
+                <i class="large material-icons">assignment</i>
+            </div>
 
-				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Undo">
-					<i class="fas fa-undo-alt fa-lg m-3 is-clickable"></i>
-				</span>
+            <div>
+                <i class="fas fa-bars fa-lg"></i>
+            </div>
+        </section>
 
-				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Redo">
-					<i class="fas fa-redo-alt fa-lg m-3 is-clickable"></i>
-				</span>
-
-				<span class="has-tooltip-arrow has-tooltip-bottom" data-tooltip="Options">
-					<i class="fas fa-ellipsis-v fa-lg m-3 is-clickable"></i>
-				</span>
-			</div>
-
-			<div>
-				<i class="fas fa-bars fa-2x m-3 is-clickable"></i>
-			</div>
-		</section>
-
-		<section>
-			<div class="columns is-mobile">
-				<div id="idSideNav" class="column is-flex is-flex-direction-column is-align-items-center is-narrow mt-3 ml-3 p-1 has-background-black-ter has-text-white">
-					<div class="has-text-centered is-clickable mt-2 mb-5">
-						<i class="fas fa-sliders-h fa-lg mb-1"></i>
-						<h2 class="is-size-7">Adjust</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-mouse-pointer fa-lg mb-1"></i>
-						<h2 class="is-size-7">Free Edit</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-pen-fancy fa-lg mb-1"></i>
-						<h2 class="is-size-7">Drawing</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-paint-brush fa-lg mb-1"></i>
-						<h2 class="is-size-7">Painting</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-user-edit fa-lg mb-1"></i>
-						<h2 class="is-size-7">Cartoon</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-pencil-alt fa-lg mb-1"></i>
-						<h2 class="is-size-7">Sketch</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-bolt fa-lg mb-1"></i>
-						<h2 class="is-size-7">HDR</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-magic fa-lg mb-1"></i>
-						<h2 class="is-size-7">Enhance</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-palette fa-lg mb-1"></i>
-						<h2 class="is-size-7">Color</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-camera-retro fa-lg mb-1"></i>
-						<h2 class="is-size-7">Retro</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-shapes fa-lg mb-1"></i>
-						<h2 class="is-size-7">Geometric</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-user-astronaut fa-lg mb-1"></i>
-						<h2 class="is-size-7">Modern</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-cube fa-lg mb-1"></i>
-						<h2 class="is-size-7">3D</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-th fa-lg mb-1"></i>
-						<h2 class="is-size-7">Mosaic</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-font fa-lg mb-1"></i>
-						<h2 class="is-size-7">Typography</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-spray-can fa-lg mb-1"></i>
-						<h2 class="is-size-7">Graffiti</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-braille fa-lg mb-1"></i>
-						<h2 class="is-size-7">Halftone</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-sticky-note fa-lg mb-1"></i>
-						<h2 class="is-size-7">Paper</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-puzzle-piece fa-lg mb-1"></i>
-						<h2 class="is-size-7">Puzzle</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-expand fa-lg mb-1"></i>
-						<h2 class="is-size-7">Frame</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-chess-board fa-lg mb-1"></i>
-						<h2 class="is-size-7">Texture</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-user-circle fa-lg mb-1"></i>
-						<h2 class="is-size-7">Mask</h2>
-					</div>
-
-					<div class="has-text-centered is-clickable mb-5">
-						<i class="fas fa-hammer fa-lg mb-1"></i>
-						<h2 class="is-size-7">Util</h2>
-					</div>
-
-					<div class="pb-6">&nbsp;</div>
-					<div class="pb-2 is-hidden-desktop">&nbsp;</div>
-				</div>
-
-				<div id="idCanvas" class="column is-flex is-flex-direction-column is-align-items-center mt-3 p-0">
-					<div class="column-main m-2">
-						<img class="pb-1" src="/assets/example-house.jpg" />
-					</div>
-				</div>
-
-				<div class="column is-1 has-background-black-ter mt-3 mr-3 p-0">
-					<div>
-
-					</div>
-				</div>
-			</div>
-		</section>
-	</body>
+        <section>
+            <div class="canvas-sec">
+                <img src="/assets/telecaster.jpg" alt="Telecaster">
+            </div>
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+</body>
 </html>
